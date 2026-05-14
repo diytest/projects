@@ -1,0 +1,837 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; image/x-icon; charset=UTF-8">
+
+  
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  
+  <link rel="canonical" href="">
+
+  
+  <meta http-equiv="Content-Language" content="ru">
+
+  <base href="">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <meta name="Reply-to" content="post4ytb@gmail.com">
+
+  
+  <meta name="Keywords" content="АЦП, I2C, SPI, 1Wire, USB, люксметры, акселерометры, колориметр, проекты, публикации">
+
+  
+  <meta name="Description" content="АЦП, I2C, SPI, 1Wire, USB, люксметры, акселерометры, колориметр, проекты, публикации"><title>PROJECTS (hardware+software)</title></head><body style="background-color: rgb(192, 192, 192);">
+<h3 style="text-align: left;"><big><big><a style="font-style: italic;" href="mailto:post4ytb@gmail.com" target="_blank"><small><small>post4ytb@gmail.com</small></small></a>&nbsp; &nbsp; &nbsp; <a href="https://www.youtube.com/@bvn6176/videos" target="_blank">Youtube
+канал1</a>&nbsp; <a href="https://www.youtube.com/@diytest/videos" target="_blank">Youtube
+канал2</a> &nbsp; &nbsp; &nbsp;&nbsp; <a href="publications.html" target="_blank">публикации</a>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</big></big></h3>
+
+<div style="text-align: center;">
+<div style="text-align: center;">
+</div>
+<div style="text-align: left;"><big><big style="font-weight: bold; color: rgb(204, 0, 0); text-decoration: underline;"><big><span style="" lang="EN-US"><span class=""><span class=""></span></span></span></big></big><big style="font-weight: bold; color: rgb(204, 0, 0);"><big><span style="" lang="EN-US"><span class=""> </span></span></big></big><big style="font-weight: bold; color: rgb(204, 0, 0);"><big><span style="" lang="EN-US"><span style="font-style: italic;" class="">КАРТИНКИ кликабельны</span></span></big></big><big style="font-weight: bold; color: rgb(204, 0, 0); text-decoration: underline;"><big><span style="" lang="EN-US"><span class=""></span></span></big></big><big><span lang="EN-US">, </span></big></big><big style="font-weight: bold; font-style: italic; color: rgb(0, 0, 102);"><big>открываются в полном масштабе на новой вкладке</big></big><span style="" lang="EN-US"></span><br>
+</div>
+
+
+<span style="" lang="EN-US"></span></div>
+
+<span style="" lang="EN-US">
+</span>
+<hr style="width: 100%; height: 2px;"><span lang="EN-US"></span><big><big>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <br>
+ </big></big>
+
+<div style="text-align: left;"><big><big><big><span style="font-weight: bold;"></span></big></big></big><big><big><big><big><span style="font-weight: bold;"></span></big></big></big></big><big style="font-style: italic;"><big><big style="font-weight: bold;">Личные</big> </big></big><big><big><big><big><span style="font-weight: bold;">ПРОЕКТЫ</span></big></big></big></big><big><big><big><span style="font-weight: bold;"><span style="font-style: italic;"></span></span></big></big></big><big><big><big><span style="font-weight: bold;"><span style="font-style: italic;">.</span></span></big></big></big><big style="font-weight: bold; color: rgb(204, 0, 0);"><big><span style="" lang="EN-US"></span></big></big><span style="" lang="EN-US"></span><br>
+</div><span lang="EN-US">Их можно
+адаптировать для
+разных задач - достаточно внести изменения в
+</span><span lang="EN-US">компьютерное приложение</span><span lang="EN-US">, а для специфических требований и в программное
+обеспечение микроконтроллера. <br>
+<br>
+<br>
+</span><big><big><b><a target="_blank" href="../i2c/I2C_SPI_USB_use.html">Адаптеры USB &lt;&gt;
+I2C/SPI/1Wire/UART в корпусе USB-флешки;</a><br>
+<span style="font-style: italic;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a style="font-style: italic;" target="_blank" href="../i2c/I2C_SPI_USB_use.html">одновременная поддержка устройств с разными
+</a></b></big></big><big style="font-style: italic;"><big><b><a target="_blank" href="../i2c/I2C_SPI_USB_use.html">интерфейс</a></b></big></big><big style="font-style: italic;"><big><b><a target="_blank" href="../i2c/I2C_SPI_USB_use.html">ами.</a></b></big></big><br>
+
+<span lang="EN-US"><br>
+</span><a target="_blank" href="../i2c/img/housing.gif"><img title="адаптер I2C SPI 1-Wire USB в корпусе" src="../i2c/img/housing.gif" alt="I2C SPI 1-Wire USB адаптер в корпусе" style="border: 0px solid ; width: 174px; height: 101px; float: left;" align="left"></a><span style="color: rgb(204, 0, 0); font-weight: bold;">Назначение:</span>
+<br>
+
+<span style="color: rgb(153, 0, 0); font-weight: bold;">экосистема:</span>
+<span style="color: rgb(153, 0, 0); font-weight: bold;">платформа + ПО</span>
+для тестирования ваших проектов или
+загрузки/использования чужих, как Ардуино,<br>
+
+только уже <span style="color: rgb(153, 0, 0); font-weight: bold;">в
+корпусе USB-флешки, <span style="color: black;">вставляются</span> без
+кабеля в разъём USB компьютера</span> -
+подсоедините к такому <span style="font-weight: bold;">адаптеру</span>
+ваше
+устройство, защелкните корпус, и у вас есть готовый продукт.<br>
+
+А <span style="color: rgb(153, 0, 0); font-weight: bold;">для
+пользователей Ардуино</span> есть <span style="color: rgb(153, 0, 0); font-weight: bold;">Ардуино-совместимй</span>
+адаптер на ATmega8, ATmega168 или ATmega328.<br>
+
+Сам пользуюсь постоянно: очень помогает разобраться с новыми <span style="font-weight: bold; color: rgb(153, 0, 0);">датчиками,
+микросхемами, устройствами с интерфейсами</span> <span style="color: rgb(153, 0, 0); font-weight: bold;">I2C, SPI, 1Wire </span>при
+базовой прошивке адаптеров, <br>
+
+а также с <span style="color: rgb(153, 0, 0); font-weight: bold;">UART</span><span style="color: rgb(153, 0, 0); font-weight: bold;">, </span><span style="color: rgb(153, 0, 0); font-weight: bold;"> </span><span style="color: rgb(153, 0, 0); font-weight: bold;">M-Bus, Step/Dir, CAN</span>
+и другими или принимать большие объёмы данных на высокой скорости - с
+написанными под них отдельными программами.<br>
+
+Использую и как <span style="color: rgb(153, 0, 0); font-weight: bold;">измеритель
+интервалов</span>, например, длительности импульса или периода,<br>
+
+и как <span style="color: rgb(153, 0, 0); font-weight: bold;">формирователь
+импульсов и последовательностей</span> детерминированной длительности и
+периода (<a style="font-weight: bold;" href="index.html#Pulse">пример</a>).<br>
+
+<br>
+
+<span style="color: rgb(204, 0, 0); font-weight: bold;">Преимущества:</span>
+<br>
+
+-адаптеры малогабаритны и помещаются в <big style="font-style: italic;"><span style="color: rgb(0, 102, 0); font-weight: bold;">корпус USB-флешки</span></big>;
+снабжены<big><span style="color: rgb(0, 102, 0); font-weight: bold;"> <span style="font-style: italic;">разъёмом USB-A,</span></span></big><br>
+
+-есть <big style="color: rgb(0, 102, 0); font-style: italic;"><span style="font-weight: bold;">драйверы и ПО для компьютера</span></big>, <br>
+
+-<big><span style="font-weight: bold; color: rgb(0, 102, 0); font-style: italic;">для
+каждого интерфейса отдельная группа контактов</span></big> - <a href="#many_interfaces">устройства с разными интерфейсами могут
+подключаться к адаптеру одновременно</a>,<br>
+
+-адаптеры <big style="color: rgb(0, 102, 0); font-style: italic;"><span style="font-weight: bold;">готовы к применению</span></big>, в
+микроконтроллеры <big style="font-style: italic;"><span style="font-weight: bold; color: rgb(0, 102, 0);">загружены bootloader
+и базовая программа</span></big>; <br>
+
+-<big style="font-weight: bold; font-style: italic;"><span style="color: rgb(0, 102, 0);">совместимость с Arduino</span></big>
+или свой загрузчик (bootloader) + компьютерное
+приложение для загрузки.<br>
+
+Адаптер позволяет <big style="color: rgb(0, 102, 0);"><span style="font-weight: bold; font-style: italic;">одновременно подключать
+нескольких датчиков</span></big> и
+других устройств <big><span style="font-weight: bold; font-style: italic; color: rgb(0, 102, 0);">с
+разными
+интерфейсами</span></big> к USB компьютера (датчики температуры,
+влажности,
+давления, акселерометры, модули GPS, микросхемы последовательной
+памяти, часы реального времени и множество других устройств). <br>
+
+Драйверы USB или виртуального COM-порта, базовое ПО для
+микроконтроллеров и для компьютера, а также специальное приложение, в
+котором пользователь сам вводит формулу преобразования поступающих от
+датчика данных в конечный результат<br>
+
+<big style="font-style: italic;"><big><span style="color: rgb(204, 0, 0); font-weight: bold;">Разработчикам</span></big></big><span style="font-weight: bold;">:</span> предлагаются адаптеры на
+<span style="font-weight: bold;">разных</span> микроконтроллерах <span style="font-weight: bold; color: rgb(0, 0, 153);">STM8S003F3P6</span><span style="color: rgb(0, 0, 153);">,</span> <span style="color: rgb(153, 0, 0); font-weight: bold;">ATmega8A</span>,
+<span style="color: rgb(153, 0, 0); font-weight: bold;">ATmega328P</span><span style="font-weight: bold;">,</span> <span style="font-weight: bold; color: rgb(51, 102, 102);">ATmega808</span>
+или других совместимых по цоколёвке
+микроконтроллерах этих серий - в зависимости от того, с какими
+микроконтроллерами предпочитает работать программист, какой объём
+памяти требуется. Пайка - только провода к вашим устройствам/датчикам.
+Адаптер и ПО уже проверены, вы можете убедиться в правильности запроса
+и ответа подключаемых устройств без поиска дополнительного ПО.<br>
+
+<span style="font-style: italic;"><span style="font-weight: bold;"></span></span><big style="font-style: italic;"><big><span style="color: rgb(204, 0, 0); font-weight: bold;">Осваивающим Аrduino</span></big></big>:
+вам не нужно подбирать корпус, использовать кабель
+USB, вы привычно прошиваете свою программу в Arduino IDE не в большую
+плату с массой неиспользуемых в проекте контактов, а в законченное
+устройство с протестированным ПО.<br>
+
+Собственные
+программы могут загружаться в Адаптеры через bootloader по USB - не
+требуется программатор (кроме адаптера на STM8S003F3P6 - этот МК
+bootloader не поддерживает).<br>
+
+<big style="font-style: italic;"><big><span style="color: rgb(204, 0, 0); font-weight: bold;">Примеры применения</span></big></big>:-
+<span style="color: rgb(0, 102, 0);"><span style="font-weight: bold;">представлена
+небольшая часть проектов на базе универсальных</span> </span><span style="font-weight: bold; color: rgb(204, 0, 0);"><span style="color: rgb(0, 102, 0);">адаптеров</span>
+USB&lt;&gt;I2C/SPI/1Wire/UART</span>:<br>
+
+<br>
+
+<a target="_blank" href="../i2c/img/UPDI_app.gif"><img title="адаптер I2C SPI 1-Wire USB и акселерометр SPI" src="../i2c/img/UPDI_app.gif" alt="I2C SPI 1-Wire USB адаптер и акселерометр SPI" style="border: 0px solid ; width: 146px; height: 51px; float: left;" align="left" hspace="5" vspace="5"></a><a target="_blank" href="../i2c/img/updi_bootld_supprt_app_M808_list.jpg"><img title="адаптер I2C SPI 1-Wire USB и акселерометр SPI" src="../i2c/img/updi_bootld_supprt_app_M808_list.jpg" alt="I2C SPI 1-Wire USB адаптер и акселерометр SPI" style="border: 0px solid ; width: 38px; height: 21px; float: left;" align="right" hspace="10" vspace="5"></a>
+<a target="_blank" href="../i2c/I2C_SPI_USB_use.html#UPDI">программатор
+UPDI</a> для микроконтроллеров megaAVR 0-series с приложением под
+Windows;<br>
+
+<br>
+
+<br>
+
+<br>
+
+<a target="_blank" href="../i2c/img/GPS_M808.jpg"><img title="GPS и адаптер I2C SPI 1-Wire USB на микроконтроллере серии megaAVR 0-series" src="../i2c/img/GPS_M808.jpg" alt="GPS и I2C SPI 1-Wire USB адаптер на микроконтроллере megaAVR 0-series" style="border: 0px solid ; float: left; width: 39px; height: 23px;" align="left" hspace="10" vspace="5"></a><a target="_blank" href="../i2c/I2C_SPI_USB_use.html#GPS">модуль
+GPS</a>;<br>
+
+<br>
+
+<a target="_blank" href="../i2c/img/Adapter_USB_I2C_SPI_Acc.jpg"><img title="адаптер I2C SPI 1-Wire USB и акселерометр SPI" src="../i2c/img/Adapter_USB_I2C_SPI_Acc.jpg" alt="I2C SPI 1-Wire USB адаптер и акселерометр SPI" style="border: 0px solid ; width: 41px; height: 35px; float: left;" align="left" hspace="10" vspace="5"></a><a target="_blank" href="../i2c/I2C_SPI_USB_use.html#acc">акселерометры</a>;<br>
+
+&nbsp;
+<br>
+
+<br>
+
+<a target="_blank" href="../i2c/img/USB_I2C_SPI_cable.jpg"><img title="адаптер I2C SPI 1-Wire USB с датчиками I2C" src="../i2c/img/USB_I2C_SPI_cable.jpg" alt="I2C SPI 1-Wire USB адаптер с датчиками I2C" style="border: 0px solid ; width: 48px; height: 33px; float: left;" align="left" hspace="10" vspace="5"></a><a target="_blank" href="../i2c/I2C_SPI_USB_use.html#HPT">датчики
+параметров окружающей среды</a> (температуры, влажности, давления);<br>
+
+&nbsp;
+<br>
+
+<br>
+
+<a target="_blank" href="../i2c/img/GY906_MLX90614_TM1637_M808.jpg"><img title="IR термометр и адаптер I2C SPI 1-Wire USB на микроконтроллере серии megaAVR 0-series" src="../i2c/img/GY906_MLX90614_TM1637_M808.jpg" alt="Бесконтактный термометр и I2C SPI 1-Wire USB адаптер на микроконтроллере megaAVR 0-series" style="border: 0px solid ; width: 44px; height: 34px; float: left;" align="left" hspace="10" vspace="5"></a><a target="_blank" href="../i2c/I2C_SPI_USB_use.html#IR">инфракрасный
+термометр</a> - работа устройства в автономном режиме, питание от
+аккумулятора, вывод температуры на 7-сегментный дисплей;<br>
+
+&nbsp;
+<br>
+
+<h2 style="text-align: left;"><a target="_blank" href="../i2c/img/clock_sensors_memory.jpg"><img title="RAM 256K и адаптер I2C SPI 1-Wire USB на микроконтроллере серии megaAVR 0-series" src="../i2c/img/clock_sensors_memory.jpg" alt="RAM 256K и I2C SPI 1-Wire USB адаптер на микроконтроллере megaAVR 0-series" style="border: 0px solid ; width: 92px; height: 21px; float: left;" align="left" hspace="10" vspace="5"></a></h2>
+
+<a name="many_interfaces"></a><a href="../i2c/I2C_SPI_USB_use.html#FRAM" target="_blank">использование разных интерфейсов</a> в одном комплекте
+подключены <br>
+
+<span style="font-weight: bold;">память</span> (<span style="font-weight: bold;">SPI</span>), <span style="font-weight: bold;">термодатчик</span> (<span style="font-weight: bold;">1Wire)</span>, прецизионные датчики <span style="font-weight: bold;">давления</span> и
+<span style="font-weight: bold;">влажности</span>, а также <span style="font-weight: bold;">часы реального времени</span> (<span style="font-weight: bold;">I2C</span>).<br>
+
+<br>
+
+подключение <a target="_blank" href="../i2c/I2C_SPI_USB_use.html#display">7-сегментных
+дисплеев</a>; <br>
+
+LED-лента с адресным управлением WS28xx (см.ниже).<br>
+
+<dl style="text-align: left;">
+
+  <dt>И еше многое другое позволяют быстро проверить эти адаптеры: <br>
+  </dt>
+  <dt><a name="Pulse"></a><big><span style="color: rgb(204, 0, 0); font-weight: bold;">например</span></big>,
+выбрать длительность импульса,
+чтобы <span style="font-weight: bold; color: rgb(204, 0, 0);">сердечник
+соленоида</span> достиг максимальной скорости с минимальным расходом
+энергии.<br>
+  </dt>
+  <dt>или убедиться, что человеческий <span style="font-weight: bold; color: rgb(204, 0, 0);">глаз различит вспышку</span>
+светодиода длительностью <span style="color: rgb(204, 0, 0); font-weight: bold;">10мкс</span>. <br>
+  </dt>
+  <dt>А различит ли глаз вспышки <span style="font-weight: bold; color: rgb(204, 0, 0);">по 10мкс</span> пары
+светодиодов <span style="font-weight: bold; color: rgb(204, 0, 0);">с
+интервалом в 30мс? А в 10 или 5мс?</span> <br>
+  </dt>
+  <dt>С
+применением таких адаптеров разрешение множества вопросов о работе
+устройств сводится к их подключению к адаптеру и, возможно, к загрузке
+небольшого кода - готового или написанного самостоятельно.</dt>
+</dl>
+
+<br>
+
+<a target="_blank" href="../i2c/img/WS2811.jpg"><img style="border: 0px solid ; width: 72px; height: 49px; float: left;" alt="Addressable LED strip" src="../i2c/img/WS2811.jpg" title="Addressable LED strip" align="left" hspace="10" vspace="5"></a><big><big><b><a target="_blank" href="https://diytest.github.io/i2c/I2C_SPI_USB_use.html#strip">Быстрое
+управление
+</a></b><a style="color: rgb(153, 0, 0); font-weight: bold;" target="_blank" href="https://diytest.github.io/i2c/I2C_SPI_USB_use.html#strip"><span style="font-style: italic;">(</span></a><a style="color: rgb(153, 0, 0); font-weight: bold;" target="_blank" href="https://diytest.github.io/i2c/I2C_SPI_USB_use.html#strip"><span style="font-style: italic;">не Ардуино</span></a><a style="font-style: italic; color: rgb(153, 0, 0); font-weight: bold;" target="_blank" href="https://diytest.github.io/i2c/I2C_SPI_USB_use.html#strip">)</a><b><a target="_blank" href="../i2c/I2C_SPI_USB_use.html#strip"> адресными
+светодиодными лентами WS28xx</a><br>
+</b></big></big>Ленты <big style="text-decoration: underline;"><span style="font-weight: bold; color: rgb(0, 102, 0);">WS28xx</span></big>&nbsp;
+управляются компьютерным приложением через <span style="font-weight: bold;">адаптер USB&lt;&gt;I2C/SPI/1Wire</span>
+по однопроводному интерфейсу
+собственным приложением. Цвет свечения каждого
+светодиода ленты выбирается отдельно.<a target="_blank" href="https://youtu.be/JluhY-VQRE4"><span style="font-weight: bold;"></span></a><br>
+
+Управляющие слова передаются компьютерным приложением или хранятся в
+памяти микроконтроллера. Есть варианты программ для микроконтроллера на
+Ассемблере для максимальной частоты обновления и на C (без ассемблерных
+вставок) для облегчения вычислений, связанных с созданием цветовых
+эффектов микроконтроллером.<br>
+
+<hr style="width: 100%; height: 2px;"><br>
+
+<big style="font-weight: bold;"><big><a target="_blank" href="../acc/index.html">Акселерометры
+с интерфейсами USB, Bluetooth, RS-485. </a><a target="_blank" href="../acc/index.html">Прецизионные акселерометры.</a></big></big><big style="font-weight: bold;"><big><a target="_blank" href="../acc/index.html"> Высокочастотные акселерометры с аналоговыми
+выходами</a><br>
+<br>
+</big></big><a target="_blank" href="../acc/img/BTcases.jpg"><img style="border: 0px solid ; width: 106px; height: 59px; float: left;" alt="accelerometer Bluetooth" src="../acc/img/BTcases.jpg" title="accelerometer Bluetooth" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;">Акселерометр Bluetooth</span> работает
+автономно, питание от аккумулятора, передаёт данные в реальном времени.<a target="_blank" href="https://youtu.be/cJPk7y8eFzg"><span style="font-weight: bold;"></span></a><br>
+
+<span style="font-weight: bold;"><big style="color: rgb(51, 102, 255);"><big><br>
+<br>
+<a href="img/AccBTshort.mp4" target="_blank"><span style="font-style: italic;"></span></a></big></big></span><a target="_blank" href="img/AccBTshort.mp4"><img style="border: 0px solid ; width: 104px; height: 58px; float: left;" alt="accelerometer Bluetooth" src="img/AccBT200g.gif" title="accelerometer Bluetooth" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;"><big style="color: rgb(51, 102, 255);"><big><a href="img/AccBTshort.mp4" target="_blank"><span style="font-style: italic;">Видео (нарезка) </span></a></big></big></span><a href="img/AccBTshort.mp4" target="_blank"><span style="font-weight: bold;"></span></a><big style="color: rgb(153, 0, 0); font-weight: bold;"><big><a href="img/AccBTshort.mp4" target="_blank"><span style="font-style: italic;"><span style="color: rgb(153, 0, 0);"></span></span></a></big></big><span style="font-weight: bold;"><big style="color: rgb(51, 102, 255);"><big><a href="img/AccBTshort.mp4" target="_blank"><span style="font-style: italic;">испытаний акселерометров BT</span></a></big></big>&nbsp;
+</span><span style="color: black; font-weight: bold;">(</span><big style="font-weight: bold;"><big><span style="color: rgb(153, 0, 0);"><span style="text-decoration: underline;">видео с комментариями</span> <small>полностью</small></span></big></big><span style="font-weight: bold;"> - ссылки на
+странице <a href="../acc/accbt.html" target="_blank">акселерометра
+Bluetooth</a></span><span style="font-weight: bold;">).<br>
+Тест <span style="color: rgb(153, 0, 0);">магнитного крепления</span>. <br>
+Стиральная машина: <span style="color: rgb(153, 0, 0);">отжим,
+длительное ускорение 225g</span>. <br>
+Выстрел из <span style="color: rgb(153, 0, 0);">катапульты</span>. <br>
+Акселерометр BT в
+корпусе <span style="color: rgb(153, 0, 0);"></span></span><span style="font-weight: bold;"><span style="color: rgb(153, 0, 0);">"</span></span><span style="font-weight: bold;"><span style="color: rgb(153, 0, 0);">яйцо"
+скатывается по лестнице - <span style="color: black;">определение
+мест сильных соударений по графику ускорения, таймеру и замедленному
+видео (имитация поиска опасных мест на конвейере птицефабрики)</span></span><span style="color: black;">.</span><br>
+</span><span style="color: black; font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"><br>
+<br>
+Акселерометр USB</span>
+работает при
+подключении к USB компьютера стандартным кабелем USB длиной до 1,8м.<a target="_blank" href="https://www.youtube.com/watch?v=moQq8GyW1zU&amp;t=25s"><span style="font-weight: bold;"></span></a><br>
+
+<a target="_blank" href="../acc/img/accelerometer.jpg"><img title="accelerometer USB" src="../acc/img/accelerometer.jpg" alt="accelerometer USB" style="border: 0px solid ; width: 51px; height: 26px; float: left;" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;">Акселерометр USB с энергонезависимой
+памятью</span>
+256КБайт<span style="font-weight: bold;"></span>, может работать
+автономно при аккумуляторном питанияя; <br>
+
+при максимальной частоте выборки 3200Гц и 3-х каналах время записи 14с
+(с новой ИС памяти до 28с)<a target="_blank" href="https://youtu.be/lf0voklM9aU?t=285"><span style="font-weight: bold;"></span></a><br>
+
+<a target="_blank" href="../acc/img/accRS485usb.jpg"><img style="border: 0px solid ; width: 46px; height: 46px; float: left;" alt="accelerometer RS-485" src="../acc/img/accRS485usb.jpg" title="accelerometer RS-485" align="left" hspace="10" vspace="5"></a><br>
+
+<span style="font-weight: bold;">Акселерометр RS-485</span> с адаптером
+RS-485 &lt;&gt; USB, может работать с кабелем длиной до 100м.<a target="_blank" href="https://youtu.be/4421W9tJQp0"><span style="font-weight: bold;"></span></a><br>
+
+<br>
+
+<span style="font-style: italic;"><br>
+</span><span style="font-weight: bold;"></span><a href="../acc/img/accprecUSB.jpg" target="_blank"><img style="border: 0px solid ; width: 46px; height: 38px; float: left;" alt="Precise accelerometer" src="../acc/img/accprecUSB.jpg" title="Precise accelerometer" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;">Прецизионный
+акселерометр (USB или RS-485)</span> с высоким разрешением, низким
+уровнем шума, широким
+диапазоном и встроенными фильтрами НЧ и ВЧ.<br>
+
+<span style="font-weight: bold;"></span><br>
+
+<span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span>
+<hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"><big><big><span style="font-weight: bold;">Высокочастотные
+акселерометры
+с аналоговыми выходами</span>,</big></big></span> <br>
+
+запись колебаний частотой до <span style="color: rgb(153, 0, 0); font-weight: bold;">30000Гц</span>
+.Усилители
+обеспечивают работу на длинный кабель, сопротивление нагрузки 200 Ом.
+<br>
+
+Возможна совместная работа с представленным ниже <b><b>Синхронным АЦП
+12бит,4+4
+канала</b></b> или с <b><b><span lang="EN-US">8-канальным
+АЦП (см. раздел <span style="color: rgb(153, 0, 0);">Различные АЦП</span>.)<br>
+<br>
+</span></b></b><a target="_blank" href="../acc/img/strikeTestUnit.jpg"><img style="border: 0px solid ; width: 46px; height: 60px; float: left;" alt="Strike test system" src="../acc/img/strikeTestUnit.jpg" title="Strike test system" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;">Измеритель
+для ударных испытаний
+транспорта</span> использовался для записи ускорений на испытаниях
+железнодорожной цистерны.<a target="_blank" href="https://youtu.be/8Fs6Di_5XxE"><span style="font-weight: bold;"></span></a><br style="font-weight: bold;">
+
+<small style="font-weight: bold;"><small><big><big><br>
+Измеритель
+для ударных испытаний оборудования</big></big></small></small><span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span>
+записывал ударные ускорения при испытаниях мотоциклетной защиты и
+шлемов.<br>
+
+<br>
+
+<span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span>
+<hr style="width: 100%; height: 2px;">
+<h1 style="font-family: monospace; text-align: left;"><b><a target="_blank" href="../adc/index.html">Различные АЦП с USB и
+памятью, пригодны для автономной работы</a></b></h1>
+
+<big style="font-weight: bold;"><big>АЦП, 1 канал, частота выборки 1МГц,</big></big><br>
+
+<a href="../adc/img/osc.jpg" target="_blank"><span style="" lang="EN-US"><img src="../adc/img/osc.jpg" alt="ADC 12bits Fs=1MHz Memory 240000samples" style="border: 0px solid ; width: 43px; height: 33px;" align="left" hspace="10" vspace="5"></span></a>12 разрядов, память
+240000выборок,
+USB-интерфейс, питание от USB&nbsp; или автономное<br>
+
+<br>
+<br>
+<big><big><span style="font-weight: bold;">АЦП - контроллер 8-ми термопар,</span></big></big><br>
+
+<a href="../adc/img/thermocouples_adc.jpg" target="_blank"><span lang="EN-US"><img src="../adc/img/thermocouples_adc.jpg" alt="ADC 8channels+2modules with 2 ADXL001 in each" style="border: 0px solid ; width: 47px; height: 35px;" align="left" hspace="10" vspace="5"></span></a><span lang="EN-US">частота выборки
+<span style="color: rgb(204, 0, 0);">185кГц</span> (1 канал), <span style="color: rgb(204, 0, 0);">34кГц</span> (8 каналов), 12 разрядов,
+память
+240000выборок,
+USB-интерфейс, питание от USB&nbsp; или автономное,<br>
+</span>внешний
+запуск измерения (на фото - по световому сигналу)<br>
+<br>
+<big><big><span style="font-weight: bold;">АЦП, 8
+каналов,
+</span></big></big><br>
+
+<a href="../adc/img/adc8ch_2x2xADXL001.jpg" target="_blank"><span style="" lang="EN-US"><img src="../adc/img/adc8ch_2x2xADXL001.jpg" alt="ADC 8channels+2modules with 2 ADXL001 in each" style="border: 0px solid ; width: 42px; height: 27px;" align="left" hspace="10" vspace="5"></span></a><span style="" lang="EN-US">частота
+выборки
+<span style="color: rgb(204, 0, 0);">185кГц</span> (1 канал), <span style="color: rgb(204, 0, 0);">34кГц</span> (8 каналов), </span><span lang="EN-US">12 разрядов, </span><span style="" lang="EN-US">память
+240000выборок,
+USB-интерфейс, питание от USB&nbsp; или автономное</span><br>
+
+<big style="font-weight: bold;">На фото: в корпусах находятся платы <a href="../acc/accanalog.html#70g" target="_blank">аналоговых
+акселерометров</a>, по два акселерометра ADXL001-70g на каждой -
+используется 4 канала АЦП; </big><br>
+
+<big style="font-weight: bold;">
+питание акселерометров - через плату от USB.<br>
+<br>
+</big><small><big style="font-weight: bold;"><big><big><span style="color: rgb(204, 0, 0);">Синхронный</span>
+АЦП </big>(<span style="color: black;">одновременное
+преобразование в каналах</span>), 4+4 канала,</big></big></small><br>
+
+<a href="../adc/img/box.jpg" target="_blank"><span style="" lang="EN-US"><img src="../adc/img/box.jpg" alt="synchronous ADC 2x4 channels" style="border: 0px solid ; width: 49px; height: 32px;" align="left" hspace="10" vspace="5"></span></a><span style="" lang="EN-US">частота
+выборки
+168кГц, </span><span lang="EN-US">12 разрядов, </span><span style="" lang="EN-US"></span><span style="" lang="EN-US">память
+240000выборок
+USB-интерфейс, питание от USB или автономное</span>
+<br>
+
+<span lang="EN-US"><span style="font-weight: bold;">4&nbsp; канала</span>
+для
+записи
+<span style="font-weight: bold;">НАПРЯЖЕНИЯ </span>и <span style="font-weight: bold;">4 канала</span> - для <span style="font-weight: bold;">ТОКА или НАПРЯЖЕНИЯ</span>,</span>
+<br>
+
+<span lang="EN-US">переключаемые
+сопротивления нагрузок в токовых каналах, переключаемые диапазоны
+входных сигналов.</span><br>
+
+<span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span>
+<hr style="width: 100%; height: 2px;">
+<h1 style="font-family: monospace; text-align: left;"><a target="_blank" href="../gsm/index.html"><span lang="EN-US">GSM/GPRS модем</span></a></h1>
+
+<a target="_blank" href="../gsm/img/GSM_USBconnected.jpg"><img style="border: 0px solid ; width: 70px; height: 51px; float: left;" alt="GSM/GPRS modem" src="../gsm/img/GSM_USBconnected.jpg" title="GSM/GPRS modem" align="left" hspace="10" vspace="5"></a>на
+плате предусмотрены<br>
+
+- микроконтроллер, управляющий модемом, формирующий запросы к
+источникам данных, преобразующий поступающие данные в сообщения,
+отправляемые модемом,<br>
+
+- разъём USB для подключения к компьютеру,<br>
+
+- интегрированная антенна / внешняя антенна,<br>
+
+- возможность подключения аккумулятора, установлен ионистор,<br>
+
+- RS-232 / TTL интерфейс для подключения к источнику данных,<br>
+
+- GSM / GPRS передача данных.,<br>
+
+- питание от источника +5В или по USB от компьютера, или от
+аккумулятора (подзарядка через
+модуль GSM)
+<ul>
+
+</ul>
+
+Применение: <br>
+
+один модем с группой теплосчетчиков устанавливается на
+несколько домов микрорайона.<br>
+
+<span style="font-weight: bold;"></span>
+к каждому модему через преобразователь M-Bus &lt;&gt; RS-232
+подключена группа теплосчетчиков с интерфейсом M-Bus.<br>
+
+<span style="font-weight: bold;">вариант 1</span>: кодированные <span style="font-weight: bold;">SMS</span> с информацией от каждого
+теплосчетчика передаются в
+центр по запросам, <br>
+
+SMS принимаются, декодируются и пополняют базу данных;<br>
+
+<span style="font-weight: bold;">вариант 2</span>: информация от
+теплосчётчиков преобразуется в <span style="font-weight: bold;">файлы</span>
+и передаётся на <span style="font-weight: bold;">ftp-сервер;</span>
+полный доступ к данным на сервере имеет администратор (формирование
+базы данных, счетов для владельцев счётчиков); данные от своих
+счётчиков могут запросить владельцы счётчиков.<br>
+
+<h1 style="font-family: monospace; text-align: left;"><font><span style="" lang="EN-US">GSM </span></font><span style="" lang="EN-US">дистанционное
+управление+сигнализация на старом мобильном телефоне</span><span style="" lang="EN-US"></span></h1>
+
+<a target="_blank" href="../gsm/img/modem_C35_uC.jpg"><img style="border: 0px solid ; width: 76px; height: 56px; float: left;" alt="GSM alarm&amp;control" src="../gsm/img/modem_C35_uC.jpg" title="GSM alarm&amp;control" align="left" hspace="10" vspace="5"></a>М<o:p>обильный
+телефон
+передаёт и принимает СМС, <br>
+- принимаемые СМС декодируются подключенным к телефону
+микроконтроллером для управления электрооборудованием;<br>
+- к микроконтроллеру подключены контакты, при замыкании которых
+микроконтроллер формирует СМС и передаёт его через мобильный телефон на
+определённый телефонный номер;<br>
+- при звонке на мобильный выполняется прослушивание помещения.</o:p>
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;"><a target="_blank" href="../lux/index.html"><b>USB Люксметры
+с графическим отображением результатов</b></a><span style="" lang="EN-US"> <br>
+</span></h2>
+
+<p class="MsoNormal"><a target="_blank" href="../lux/img/LG05_PCmonitor.jpg"><img style="border: 0px solid ; width: 76px; height: 51px; float: left;" alt="Pocket Luxmeter" src="../lux/img/LG05_PCmonitor.jpg" title="Pocket Luxmeter" align="left" hspace="10" vspace="5"></a><span style="font-weight: bold;">Карманный</span> <b>люксметр</b>
+<span style="font-weight: bold;">с графическим дисплеем ЛГ05</span>,
+память на 40 записей (графиков), передача записанных данных по USB, хранение и отображение на компьютере.<br>
+</p>
+
+<p class="MsoNormal"><span style="color: rgb(204, 0, 0); font-weight: bold;">Комбинированный
+светофильтр с характеристиками как у глаз человека</span>. <br>
+</p>
+
+<p class="MsoNormal">Возможность просмотра графика записанного
+сигнала (400 точек) на дисплее люксметра, вычисление результата для
+выделенного пользователем участка графика (минимум, максимум, среднее, коэффициент и частота пульсаций).<br>
+При
+вызове из памяти люксметра записанных ранее массивов, на его дисплее воспроизводятся
+результаты измерений и графики.</p>
+<p class="MsoNormal">Компьютерное приложение
+обеспечивает возможность считывания массивов из памяти
+<b>люксметра по USB</b>, отображения считанных данных,
+хранения и документирования.<br>
+<span style="" lang="EN-US">На странице люксметров можно скачать <span style="color: rgb(204, 0, 0);"><b>приложение</b>
+<b>с файлами данных</b></span>, записанных </span><span style="" lang="EN-US">для различных
+источников (мониторы, лампы, телевизоры) </span><b>люксметром
+с USB-интерфейсом</b><span style="" lang="EN-US"></span><b>.</b><span style="" lang="EN-US"><o:p>
+</o:p></span></p>
+
+
+<p class="MsoNormal">Интересны графики, полученные при проверке <b>люксметром
+</b>TFT-мониторов:
+при отображении статической
+картинки часть TFT-мониторов дает, как и ожидалось,
+постоянный световой поток, а часть -
+ПУЛЬСИРУЮЩИЙ. На старых , дешевых
+TFT-мониторах установлена подсветка с питанием переменным током невысокой частоты.
+Соответствующие графики приведены на странице люксметров<span style="" lang="EN-US">. Там же ссылки на видеоинструкции к люксметру.<br>
+</span></p>
+
+<p class="MsoNormal"><a target="_blank" href="../lux/img/LG09_MilkGlass_Head.jpg"><img style="border: 0px solid ; width: 63px; height: 47px; float: left;" alt="USB Luxmeter" src="../lux/img/LG09_MilkGlass_Head.jpg" title="USB Luxmeter" align="left" hspace="10" vspace="5"></a></p>
+
+<span style="font-weight: bold;">Люксметр</span>
+графический <span style="font-weight: bold;">ЛГ09</span>
+с интерфейсом
+USB, 8 диапазоном, частота
+выборки до 8,25кГц. <span style="color: rgb(204, 0, 0); font-weight: bold;"><br>
+Комбинированный светофильтр с характеристиками как
+у глаз человека, молочный светофильтр, насадка для измерения яркости.</span>
+<br>
+
+Данные передаются в компьютер, отображаются в т.ч.
+в виде графиков.
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;"><a target="_blank" href="../lux/index.html"><b>USB колориметр</b></a><span style="" lang="EN-US">&nbsp;</span></h2>
+
+<p class="MsoNormal"><a target="_blank" href="../lux/img/KS08side.jpg"><img style="border: 0px solid ; width: 62px; height: 47px; float: left;" alt="colorimeter" src="../lux/img/KS08side.jpg" title="colorimeter" align="left" hspace="10" vspace="5"></a><span style="" lang="EN-US"><big><b><u>Колориметр</u></b></big>
+определяет координаты цвета и цветности
+несамосветящихся и самосветящихся объектов;
+пополняемая пользователем библиотека эталонов,
+образцов, локусов, молочных стекол.</span><span style="" lang="EN-US"><br>
+</span></p>
+
+<br>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span>
+</h2>
+
+<h2 align="center">
+</h2>
+
+<hr style="width: 100%; height: 2px;">
+<h1 style="font-family: monospace; text-align: left;"><a href="../misc/img/headsetRdy.jpg" target="_blank"><span style="" lang="EN-US"><span style="font-weight: bold;"><img src="../misc/img/headsetRdy.jpg" alt="Гарнитуры" style="border: 0px solid ; width: 81px; height: 61px; float: left;" align="left" hspace="5" vspace="5"></span></span></a><a target="_blank" style="font-weight: bold;" href="../misc/headset.html">Проводная
+гарнтура
+для стационарного телефона</a></h1>
+
+Электретный
+микрофон, наушник от mp3-плеера, плата 27х7мм - вешается прям на ухо
+(как лапша). Представлены схема, конструкция.<br>
+
+<span style="font-weight: bold;"></span>
+<h1 style="font-family: monospace; text-align: left; font-weight: bold;"><a target="_blank" href="../misc/PCB2sided.html"><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span></a><a href="../misc/img/33angle.jpg" target="_blank"><img title="Сверление" src="../misc/img/33angle.jpg" alt="Сверление" style="border: 0px solid ; width: 79px; height: 79px;" align="left" hspace="5" vspace="5"></a><a target="_blank" href="../misc/PCB2sided.html"> Изготовление
+двусторонней печатной платы в домашних условиях</a></h1>
+
+<a href="https://youtu.be/lf0voklM9aU?t=285"><span style="font-weight: bold;"></span></a><a target="_blank" href="https://youtu.be/XM7orhqfiDE"><span style="font-weight: bold;">Видео</span></a>:
+тест: ширины дорожек и зазоров 0,1мм и меньше, тест принтеров
+(разрешение 600 и 1200 dpi). На
+примере платы для гарнитуры в фотографиях представлена
+последовательность изготовления ДВУСТОРОННЕЙ печатной платы. Особое
+внимание уделено совмещению обоих слоев, качеству травления.
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span></h2>
+
+<h2 align="center">
+</h2>
+
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;"><span lang="EN-US">Терморегулятор
+</span></h2>
+
+<p class="MsoNormal"><a href="img/ThermoReg.jpg"><span style="" lang="EN-US"></span></a><a target="_blank" href="img/ThermoReg.jpg"><img style="border: 0px solid ; width: 78px; height: 67px; float: left;" alt="Thermo Controller" src="img/ThermoReg.jpg" title="Thermo Controller" align="left" hspace="10" vspace="5"></a><span lang="EN-US">Устройство
+сделано для
+регулировки температуры на даче, используется
+для предварительных температурных испытаний
+электронной аппаратуры в условиях лаборатории в
+самодельном термостате - ну, очень удобно: в
+термостат бросается только датчик, все
+регулировки снаружи, нагреватель (лампочка)
+погас-включился - записывай температуру, снимай
+показатели испытываемой аппаратуры.&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Предыдущее
+устройство было сделано на терморезисторе и
+сдвоенном операционном усилителе, но изменять
+желаемую температуру с помощью подстроечного
+резистора, подбирать резистор для обеспечения
+гистерезиса было довольно хлопотно. </span></p>
+
+<p class="MsoNormal"><a href="img/ThermoBox.jpg"><span style="" lang="EN-US"></span></a><a target="_blank" href="img/ThermoBox.jpg"><img style="border: 0px solid ; width: 78px; height: 103px; float: left;" alt="Thermo Box" src="img/ThermoBox.jpg" title="Thermo Box" align="left" hspace="10" vspace="5"></a><span style="" lang="EN-US">Представленный
+контроллер довольно прост, выполнен на МК Attiny26 и
+светодиодном дисплее на 3 десятичные цифры, на
+котором температура индицируется в формате XX.X <o:p> </o:p> </span></p>
+
+<p class="MsoNormal"><span lang="EN-US">Тремя
+кнопками можно установить температуры ВКЛЮЧЕНИЯ
+и ВЫКЛЮЧЕНИЯ нагревателя (одной кнопкой
+производится выбор режима: &lt;индикация
+температуры в помещении&gt; – &lt;установка
+Tº</span><span lang="EN-US"></span><span style="" lang="EN-US">C
+включения&gt; – &lt;установка T</span><span lang="EN-US">ºC </span><span style="" lang="EN-US">выключения&gt;,
+кнопкой &lt;+&gt; увеличивается, а кнопкой &lt;-&gt;
+уменьшается значение температуры в режимах
+установки Т</span><span lang="EN-US">ºC</span><span lang="EN-US"></span><span style="" lang="EN-US">).<o:p> </o:p> </span></p>
+
+<p class="MsoNormal"><span lang="EN-US">ИС DS18B20,
+используемая в качестве термодатчика,
+подсоединяется лишь двумя проводами в несколько
+метров длиной к контроллеру. DS18B20 представляет
+собой ИС с последовательным интерфейсом в
+корпусе TO-92. Ошибка измерения температуры
+составляет менее ±0.5</span><span lang="EN-US">º</span><span lang="EN-US">C в диапазоне -10</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+85</span><span lang="EN-US">º</span><span style="" lang="EN-US">C и ±2</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C в
+диапазоне -55</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+125</span><span lang="EN-US">º</span><span lang="EN-US"></span><span style="" lang="EN-US">C без дополнительной
+калибровки.<o:p> </o:p> </span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Контроллер
+коммутирует напряжение сети 220В на гальванически
+развязанную нагрузку (нагреватель), обеспечивая
+ток&nbsp; до 4А (на даче используется устройство
+поджига газа, потребляющее мене 40Вт).<o:p> </o:p> </span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Интерес
+скорее представляет конструкция устройства: все
+компоненты (печатная плата контроллера с
+индикатором, опторазвязкой, симистором,
+стабилизатором и трансформатором питания), за
+исключением вынесенной на проводах ИС
+термодатчика, размещены в корпусе сетевого блока
+питания с сетевой вилкой, сбоку корпуса
+находится розетка для подключения нагрузки.
+Индикатор и отверстия для доступа к кнопкам
+находятся на задней стенке корпуса. Все, что
+требуется - прорезать окно для индикатора, 3
+отверстия для доступа к кнопкам и 3 паза внутри
+корпуса разогретым паяльником. <br>
+</span></p>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US">Измеритель
+2-х температур </span></h2>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Устройство
+сделано для дизельного автомобиля (Volkswagen), как
+сказал заказчик, при запуске нужно знать
+температуру снаружи, а температура в салоне -
+чтобы была. Используется 2 термодатчика и два
+индикатора температуры по 3 десятичных разряда,
+плюс 2 светодиода для индикации знака "-".</span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Плата
+индикаторов 46 х 31мм, плата с микроконтроллером 42
+х 36мм (требования заказчика под место в приборной
+панели), питание от автомобильного аккумулятора
+12В-15В (возможно питание от +5В).</span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US">Если один
+из термодатчиков "замочить", можно измерять
+относительную влажность (потребуется добавить
+программу c алгоритмом пересчета показаний сухого
+и мокрого термодатчиков в относительную
+влажность).&nbsp;</span></p>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span>
+</h2>
+
+<h2 align="center">
+</h2>
+
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;">"Алмаз", ПРОГРАММАТОР микросхем памяти, в
+т.ч.
+использующихся в
+бортовых компьютерах автомобилей.</h2>
+
+<p class="MsoNormal"><span style="" lang="EN-US"></span><a target="_blank" href="img/Almaz.jpg"><img style="border: 2px solid ; width: 102px; height: 64px; float: left;" alt="Memory Programmer" src="img/Almaz.jpg" title="Memory Programmer" align="left" hspace="10" vspace="5"></a><span style="" lang="EN-US">Программатор
+разработан для станций обслуживания
+автомобилей. Он имеет простой и понятный для
+пользователей интерфейс и позволяет считывать и
+записывать программы в ПЗУ, использующиеся в
+качестве памяти программ в бортовых компьютерах
+автомобилей, а также организовать базу данных
+файлов с индивидуальными настройками для
+конкретных автомобилей. Список программируемых
+ЗУ: AM27C010 AM27C256 AM27C512 AM28F010 AM29F010 AT27C256 AT27C512
+M27256 M27512 M27C256
+M27C512 SST29EE010 SST29EE512 W27C257 W27C512 W29EE011 W29EE512.<o:p></o:p><br>
+<a href="http://bvn123.narod.ru/almaz_demo.zip">Здесь</a> можно скачать
+демонстрационную версию ПО <b>ПРОГРАММАТОРА</b>
+для РС.</span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-US"><o:p><span style="font-style: italic;">Проект
+2003 г., у меня были большие сомнения в его целесообразности - на
+радиорынке было много программаторов ЗУ. </span></o:p></span><span style="" lang="EN-US"><span style="font-style: italic;"><br>
+</span></span><a target="_blank" href="img/AlmazProgrammerWin.jpg"><img style="border: 2px solid ; width: 100px; height: 74px; float: left;" alt="Memory Programmer" src="img/AlmazProgrammerWin.jpg" title="Memory Programmer" align="left" hspace="10" vspace="5"></a><span style="" lang="EN-US"><span style="font-style: italic;">Но, очевидно,
+заказчик точно знал, зачем
+это ему нужно: </span></span><span style="" lang="EN-US"><o:p><span style="font-style: italic;">недавно
+попалась ветка в
+форуме - до сих пор хорошие отзывы.<br>
+</span></o:p></span><span style="" lang="EN-US"><o:p><span style="font-style: italic;">&nbsp;Вероятно, дело и в требованиях
+заказчика к ПО, и в целевой аудитории, и
+в поддержке множества значений напряжений, указанных в даташитах на все
+программируемые микросхемы - от 3,75В до 14В. <br>
+Например, на фото
+выбрана микросхема, для работы с которой требуется четыре значения
+напряжения: 5В, 12В (программирование), 14В
+(стирание) и 3,75В (проверка стирания).</span><br>
+</o:p></span></p>
+
+<h2 style="text-align: left;"><span lang="EN-US">&nbsp;BinSoft:
+программа для тьюнинга ЭСУД (электронных систем
+управления двигателем) </span></h2>
+
+<p class="MsoNormal"><span lang="EN-US">ПРОГРАММА BinSoft обеспечивает
+тьюнинг
+инжекторных двигателей коррекцией программного
+обеспечения бортовых компьютеров
+автомобилей.&nbsp;Программа позволяет изменять
+параметры <b><u>Электронных систем управления
+двигателем</u></b> (<b><i><u>ЭСУД</u></i></b>), хранящиеся в
+программном обеспечении (ПО) бортового
+компьютера автомобиля (в <b>ПЗУ</b>).<br>
+ПО может быть считано из <b>ПЗУ</b> описанным вышее <b>программатором</b>,
+сохранено в виде файла, файл корректируется
+программой BinSoft, после сохранения снова
+записывается в <b>ПЗУ</b> с помощью <b>программатора</b>.<br>
+Тип исходного программного обеспечения
+определяется автоматически, в том числе и для уже
+корректировавшегося программного обеспечения.<br>
+Корректируется ПО для разных модификаций <b><u>Электронных
+систем управления двигателем</u></b> (<b><i><u>ЭСУД</u></i></b>)
+<b><u>Bosch, Январь, VS5</u></b></span><br>
+</p>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span>
+</h2>
+
+<h2 align="center">
+</h2>
+
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;"><span style="" lang="EN-US">Контроллер
+балансировки вращающихся объектов <o:p> </o:p> </span></h2>
+
+<p class="MsoNormal"><span style="" lang="EN-US">&nbsp;Контроллер
+балансировки вращающихся объектов, таких, как
+роторы двигателей. Для балансировки
+используется стенд с мягкой подвеской и
+акселерометр, а также круг стробоскопа с
+угловыми метками для определения направления
+дисбаланса. Круг вращается вместе с ротором.
+Балансируемый объект раскручивается до 2000...3000
+оборотов в минуту, сигнал, образующийся на выходе
+акселерометра, пропорционален величине
+виброускорения. Этот сигнал, возникающий из-за
+несбалансированности вращающегося объекта,
+усиливается и подается на контроллер. Контроллер
+определяет частоту сигнала (частоту вращения
+ротора), а амплитуда сигнала, пропорциональная
+преобразуемому акселерометром виброускорению,
+пересчитывается в вибросмещение,
+пропорциональное несбалансированной массе
+объекта. Направление дисбаланса на круге с
+угловыми метками указывает импульсная
+светодиодная подсветка, управляемая
+контроллером. На индикаторе отображается
+амплитуда вибросмещения, при нажатии кнопки
+"Частота" отображается частота вращения.
+Балансировочная масса, пропорциональная
+вибросмещению, добавляется в направлении,
+противоположном направлению дисбаланса. Хотя
+направление дисбаланса массы соответствует
+максимальному значению сигнала, (это направление
+смещено на 90 градусов относительно нуля
+(перехода сигнала, пропорционального
+виброускорению, через ноль), в контроллере
+предусмотрена возможность изменения углового
+смещения подсветки круга стробоскопа от 0 до 359-ти
+градусов с шагом в 1 градус относительно нуля
+градусов (переход сигнала через ноль). Угол
+смещения подбирается кнопками и запоминается в
+контроллере для конкретного стенда. Таким
+образом, на круге можно задать вместо подсветки
+направления дисбаланса подсветку направления, в
+котором следует добавлять балансировочный
+грузик. Возможно перепрограммирование
+контроллера на индикацию угла дисбаланса без
+стробоскопа. В этом случае понадобится датчик
+или метка (оптическая, магнитная, ...) вместо круга
+стробоскопа.<br>
+</span></p>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span>
+</h2>
+
+<h2 align="center">
+</h2>
+
+<hr style="width: 100%; height: 2px;">
+<h2 style="text-align: left;"><b>8-канальный контроллер
+весоизмерителя.</b></h2>
+
+<p>Конечно, устройство может быть использовано не
+только совместно с тензодатчиками,
+предназначенными для измерения веса, но и с
+другими датчиками. Сигналы от датчиков могут
+быть как униполярными, так и биполярными,
+максимальные входные напряжения АЦП,
+соответствующие полной шкале, могут выбираться
+из ряда 20мВ, 40мВ, 80мВ, 160мВ, 320мВ, 640мВ, 1,28В, 2,56В. В АЦП
+используется цифровая фильтрация, снижающая
+помехи частотой 50Гц. </p>
+
+<p>Отличительные особенности разработанного
+устройства </p>
+
+<ul>
+
+  <p>в использовании для каждого подключаемого тензодатчика отдельного
+дельта-сигма АЦП, </p>
+  <p>количество подключаемых датчиков выбирается пользователем (от 1-го
+до 8-ми), </p>
+  <p>передача данных от каждого АЦП в блок индикации- по RS485 на
+расстояние порядка 100м, </p>
+  <p>возможность линеаризации характеристик тензодатчиков по нескольким
+точкам (здесь по 4-м), для этого к блоку индикации на время калибровки
+подключается клавиатура (13 клавиш: 10 цифр, десятичная точка, ВВОД,
+ОТМЕНА), на калибруемый датчик устанавливается образцовый груз 1, с
+клавиатуры вводится его вес, то же повторяется для грузов 2, 3, 4, по
+установленным весам и введенным значениям автоматически определяются
+коэффициенты, используемые для отображения веса в штатном режиме, </p>
+  <p>одновременно к индикатору могут подключаться датчики разных типов
+с разными параметрами, индикатор отображает сумму сигналов от каждого
+из датчиков, каждый из которых домножается на свой индивидуальный
+коэффициент.</p>
+</ul>
+
+<hr style="width: 100%; height: 2px;">
+</body></html>
