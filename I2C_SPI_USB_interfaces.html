@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ru"><head>
+
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; image/x-icon; charset=UTF-8">
+
+  
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  
+  <link rel="canonical" href="">
+
+  
+  <meta http-equiv="Content-Language" content="ru">
+
+  <base href="">
+  <meta name="Reply-to" content="post4ytb@gmail.com">
+
+  <meta name="Keywords" content="I2C SPI 1Wire USB adapter адаптер">
+
+  <meta name="Description" content="I2C SPI 1Wire USB adapter адаптер"><title>I2C SPI 1Wire USB adapter</title></head><body style="background-color: rgb(192, 192, 192);"><big><big><big><big><a href="../projects/index.html" target="_blank">Home</a></big></big></big></big><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp; &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </big></big><big><big><big><big><a style="font-style: italic; font-weight: bold;" href="mailto:post4ytb@gmail.com" target="_blank"><small><small>post4ytb@gmail.com</small></small></a></big></big></big></big><br>
+<br>
+
+
+<table style="text-align: left; height: 137px; width: 636px;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(102, 255, 255);"><a target="_blank" style="color: rgb(51, 51, 255);" href="index.html"><big><big>I2C
+SPI 1-Wire USB adapter</big></big></a></td>
+    </tr>
+    <tr>
+      <td style="height: 14px; background-color: rgb(3, 253, 238); width: 626px;"><a style="color: rgb(0, 0, 238);" href="http://accelerometer.narod.ru/application.html"><big><big><span style="color: rgb(204, 0, 0);"></span><span style="color: rgb(255, 102, 0);"></span><span style="color: rgb(0, 102, 0);"></span><span style="color: rgb(51, 153, 153);"></span><span style="color: rgb(0, 0, 153);"></span><span style="color: rgb(102, 0, 204);"></span></big></big></a><big><big><a target="_blank" href="I2C_SPI_USB_interfaces.html">Interfaces
+I2C, SPI, 1-Wire; connecting to the adapter</a></big></big></td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(3, 253, 238); height: 16px; width: 626px;"><a style="color: rgb(0, 0, 238);" href="http://accelerometer.narod.ru/img/I2C_SPI/USB_case.mp4"><big><big><span style="color: rgb(204, 0, 0);"></span><span style="color: rgb(204, 153, 51);"><span style="color: rgb(51, 51, 255);"></span></span></big></big></a><a target="_blank" style="color: rgb(51, 51, 255);" href="I2C_SPI_USB_lib.html"><big><big>Software
+for the I2C SPI 1-Wire USB adapter</big></big></a></td>
+    </tr>
+    <tr style="background-color: rgb(102, 255, 255);">
+      <td><a target="_blank" style="color: rgb(51, 51, 255);" href="I2C_SPI_USB_app_examples.html"><big><big>Examples
+of adapter microcontroller programs</big></big></a></td>
+    </tr>
+    <tr style="color: rgb(51, 51, 255);">
+      <td style="background-color: rgb(3, 253, 238); height: 9px; width: 626px;"><big><big><a target="_blank" href="I2C_SPI_USB_use.html">Using
+I2C SPI 1-Wire USB adapters</a></big></big></td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(102, 255, 255);"><big><big><a target="_blank" href="I2C_SPI_USB_accessories.html">Boards,
+cables, enclosures, accessories</a></big></big></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(102, 255, 255);"><big><big><a href="https://accusb.000webhostapp.com/I2C_SPI_USB_accessories.html"><span style="" lang="EN-US"><span style="color: rgb(0, 102, 0);"><span style="color: black;"><span style="font-weight: bold;"></span></span></span></span></a><a href="https://youtu.be/eOtSVU7-4bA" target="_blank">UPDI programming
+video on YouTube</a></big></big></td>
+    </tr>
+    <tr style="background-color: rgb(102, 255, 255);">
+      <td><small><small><big><big><a target="_blank" style="color: rgb(51, 51, 255);" href="img/USB_case.mp4"><big><big>3D
+model of the adapter enclosure for 3D printing</big></big></a></big></big></small></small></td>
+    </tr>
+    <tr>
+      <td style="background-color: rgb(102, 255, 255);"><big><big><a target="_blank" href="I2C_SPI_USB_forum.html">Forum,
+(possibly feedback, contacts, support)</a></big></big></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 align="center"><span style="background-color: rgb(153, 255, 153);" lang="EN-US">Interfaces
+I2C, SPI, 1-Wire</span></h1>
+
+<h2 style="background-color: rgb(153, 153, 0); width: 415px;"><span style="" lang="EN-US">Technical Description of the Interfaces</span></h2>
+
+<a target="_blank" href="doc/ATmega8A.pdf">Technical
+Datasheet for the ATmega8A Microcontroller</a><span style="text-decoration: underline;"></span>
+in English, contains a full description of the SPI and
+I2C interfaces
+(referred to as TWI - Two-wire Serial Interface - in the document); pdf format, file size
+7.51MB.<br>
+
+<br>
+
+<span style="" lang="EN-US"></span><span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold; color: rgb(0, 102, 0);"></span></span>In the
+technical description of the <a target="_blank" href="doc/DS18B20.pdf">DS18B20
+temperature sensor</a>
+the 1-Wire interface is covered in detail (in English), pdf, 382K.<br>
+
+<br>
+
+<h4 style="font-weight: normal; height: 6px;"><big style="font-weight: bold;"><a target="_blank" href="doc/SPI_rus.pdf">the SPI
+interface in Russian</a></big> - a translation
+of a chapter from an ATmega-series microcontroller
+datasheet; pdf (scanned pages), 920K.</h4>
+
+<h4 style="font-weight: normal; height: 8px;"><big style="font-weight: bold;"><a target="_blank" href="doc/I2C_rus.pdf">the I2C
+interface in Russian</a></big> (<big style="font-weight: bold;">= the TWI
+interface</big>) - pdf
+format, 315K</h4>
+
+<h4 style="font-weight: normal; height: 45px;"><big style="font-weight: bold;"><a target="_blank" href="doc/1wire_rus.pdf">the 1-Wire
+interface in Russian</a></big> - a description of the interface using
+the DS18B20 temperature sensor as an example, pdf, 934K.</h4>
+
+<span style="" lang="EN-US"><span style="color: rgb(0, 102, 0);"><span style="color: black;"></span></span></span>
+<h1 align="center"><span style="background-color: rgb(153, 255, 153);" lang="EN-US">Connecting
+Devices to the I2C SPI 1-Wire USB Adapter</span></h1>
+
+<h2 style="background-color: rgb(153, 153, 0); width: 526px;"><span style="" lang="EN-US">Connecting 1-Wire-Interface
+Devices</span></h2>
+
+Every slave device with the <span style="color: rgb(153, 51, 0);">1-Wire</span> interface
+has a unique 64-bit address programmed in at the factory. For example, you can
+connect many DS18B20 temperature sensors to the 1-Wire interface -
+each of them is guaranteed to have an individual address. The interface
+provides a procedure for discovering the addresses of connected devices. <br>
+
+<span style="font-weight: bold; color: red;">Note:</span>
+for the 1-Wire interface, it's not always worth fully
+assembling a system with many identical devices, since
+their identification will be required - at which position, with which address,
+each device is located.<br>
+
+To
+identify a temperature sensor and its location, if possible, it's
+enough to change the temperature affecting the sensor while watching
+the readings of all the sensors.<br>
+
+For example,
+in a system, one of the DS18B20 temperature sensors can be squeezed in a hand -
+only that sensor's readings will change on the display device or
+in the logger.<br>
+
+If a system has several atmospheric pressure sensors, they can be
+placed in a sealed bag, and the bag squeezed.<br>
+
+But in some cases it can be difficult to identify an individual
+device in the system using such a method. <br>
+
+In that case
+it makes sense to build up the system by connecting one device at a time and
+identifying it. Devices can be connected one at a time in advance,
+their address determined, and each device labeled.<br>
+
+<br>
+
+<a href="img/connect_1wire.jpg"><img title="Adapter, connecting to 1-Wire" style="border: 0px solid ; width: 430px; height: 178px;" alt="Adapter, connecting to 1-Wire" src="img/connect_1wire.jpg" align="left" hspace="10" vspace="5"></a><br>
+
+<span style="color: rgb(153, 0, 0);">The pins</span>
+for connecting devices with the <span style="color: rgb(153, 0, 0); font-weight: bold;">1-Wire</span> interface are located <span style="color: rgb(153, 0, 0); font-weight: bold;">on the
+underside</span> of the adapter board, the side without any components.<br>
+
+For example, several
+DS18B20 temperature sensors can be connected to the adapter. <br>
+
+Their
++U and GND pins are tied together - the sensors operate in parasite-power
+mode, drawing power from the data line DQ. <br>
+
+On the adapter board, parasite
+power is supplied to the IO1 line through a <span style="color: rgb(153, 0, 0);">resistor</span>
+with a resistance of <span style="color: rgb(153, 0, 0);">4.7k</span>
+from
+the adapter's V power line. <br>
+
+Power can also be supplied to the sensors' +U pins from the
+adapter's V pin - for this, the sensors' +U and GND pins must be
+disconnected from each other<br>
+<br>
+<br>
+<br>
+.<br>
+
+<h2 style="background-color: rgb(153, 153, 0); width: 526px;"><span style="" lang="EN-US">Connecting I2C-Interface
+Devices</span></h2>
+
+
+In normal mode, the address of an I2C-interface device is defined by 7
+bits, which allows addressing up to 128 devices.<br>
+
+A huge
+number of I2C-interface devices are manufactured, so devices
+with identical addresses can be encountered. Manufacturers often allow the
+device address to be changed by connecting its <span style="font-weight: bold;">address-control
+line</span> to power
+or to 0V - in that case, two identical devices can also be connected to the
+interface. <br>
+
+There is a sensor whose <span style="font-weight: bold;">address-control
+line</span> can be connected to the
+power rails, 0V, or to the interface
+lines SDA, SCL, which allows four identical
+sensors to be connected to the interface.<br>
+
+<br>
+
+<a href="img/connect_I2C.jpg"><img src="img/connect_I2C.jpg" alt="Adapter, connecting to I2C" style="border: 0px solid ; width: 430px; height: 219px;" title="Adapter, connecting to I2C" align="left" hspace="10" vspace="5"></a><br>
+
+<br>
+
+<span style="color: rgb(153, 0, 0);">The pins</span>
+for connecting devices with the <span style="color: rgb(153, 0, 0); font-weight: bold;">I2C</span> interface are located <span style="color: rgb(153, 0, 0); font-weight: bold;">on the
+underside</span> of the adapter board, the side without any components.<br>
+
+<span style="color: rgb(153, 0, 0);">Pull-up
+resistors</span> with a resistance of <span style="color: rgb(153, 0, 0);">10k</span>
+are mounted on
+the adapter board - through them the adapter's supply voltage (the V line)
+is fed <span style="color: rgb(153, 0, 0);">to the SDA line</span>
+(labeled D on the adapter board) and <span style="color: rgb(153, 0, 0);">SCL</span>
+(labeled
+C).<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h2 style="background-color: rgb(153, 153, 0); width: 526px;"><span style="" lang="EN-US">Connecting SPI-Interface
+Devices</span></h2>
+
+Hardware
+address support is not provided for SPI-interface devices.
+But each device usually has a select line (~CS). For a device to
+support SPI communication, the select line must first be
+set to a low logic level, and after the communication is finished,
+set back to a high level on that line. <br>
+
+If several devices are connected to the SPI interface, each of them
+must be controlled by its own separate select line.<br>
+
+<span style="color: red; font-weight: bold;">Note:</span>
+even if only one slave device is connected to the SPI master,
+and you weren't planning to run a select line, hoping to
+simply
+tie the device's ~CS pin to 0V, <span style="color: rgb(153, 0, 0);">check the technical
+documentation to make sure toggling the ~CS line is not a mandatory
+condition for the device to operate.<br>
+<br>
+<span style="color: black;">Some devices come with
+two interfaces: the developer can choose between the I2C and SPI
+interfaces. <br>
+The I2C interface requires two signal lines: SDA and SCL.<br>
+The SPI
+interface uses four signal lines: MISO, MOSI, SCK, and ~CS, or three
+lines: in that variant, the MISO and MOSI signals are carried on a single line.
+Whether a device supports this mode can be found in its technical
+documentation.<br>
+<span style="color: rgb(153, 0, 0);">Using the </span></span></span><span style="color: rgb(153, 0, 0);"><span style="color: black;"><span style="color: rgb(153, 0, 0);">SPI interface lets you
+achieve a higher transfer speed than working over I2C. </span><br>
+For example, the technical datasheet for the ADXL345 accelerometer states that
+when connected via <span style="color: rgb(153, 0, 0);">SPI</span>
+the maximum <span style="color: rgb(153, 0, 0);">sampling
+rate</span> is <span style="color: rgb(153, 0, 0);">3200Hz</span>;
+<br>
+if the ADXL345 is connected via the <span style="color: rgb(153, 0, 0);">I2C</span>, </span></span><span style="color: rgb(153, 0, 0);"><span style="color: black;">interface,
+then even at the maximum SCL clock frequency of 400kHz, </span></span><span style="color: rgb(153, 0, 0);"><span style="color: black;">the maximum
+<span style="color: rgb(153, 0, 0);">sampling rate</span>
+of the accelerometer is four times lower: <span style="color: rgb(153, 0, 0);">800Hz</span>.
+This is explained by the transmission of the address, the transmission of other additional
+data, and the 400kHz clock-frequency limit for the I2C interface.<br>
+<br>
+</span></span><a href="img/connect_SPI.jpg"><img title="Adapter, connecting to SPI" style="border: 0px solid ; width: 430px; height: 260px;" alt="Adapter, connecting to SPI" src="img/connect_SPI.jpg" align="left" hspace="10" vspace="5"></a><br>
+
+<br>
+
+<span style="color: rgb(153, 0, 0);">The pins</span>
+for connecting devices with the <span style="color: rgb(153, 0, 0); font-weight: bold;">SPI</span> interface are located <span style="color: rgb(153, 0, 0); font-weight: bold;">on the
+topside</span> of the adapter board - the side where the
+components are mounted.<br>
+
+The pin names of an SPI slave device may differ; <br>
+
+SDI - <span style="font-weight: bold; color: red;">input</span>
+for data coming from the adapter (the master),<br>
+
+SDO - <span style="font-weight: bold; color: red;">output</span>
+for data from the slave device,<br>
+
+SCK - <span style="font-weight: bold; color: red;">input</span>
+for the clock signal sent by the adapter,<br>
+
+~CS - <span style="font-weight: bold; color: red;">input</span>
+for selecting the device; <br>
+
+if the adapter sets a high level on this input, the device does not
+respond to signals arriving over the SPI interface; <br>
+
+a low level on the ~CS pin, set by the adapter, puts the
+slave device's SPI interface into working mode.<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+<h2 style="background-color: rgb(153, 153, 0); width: 742px;"><span style="" lang="EN-US">Simultaneously Connecting
+Devices with Different Interfaces</span></h2>
+
+It is possible
+to use all three interfaces simultaneously - connecting several
+I2C and 1-Wire devices and one or two SPI devices (the IO2
+line can be used as a second ~CS line).<br>
+
+If some
+interfaces are not used, the unused lines can be used as
+general-purpose
+inputs/outputs (general I/O), or additional devices connected to the SPI
+interface of the adapter can be controlled over those lines.<br>
+
+In total, the adapter
+provides 12 pins for connecting a cable: two of them are connected to the V power line,
+and another two to the _|_ (Gnd) line;<br>
+
+8 of the pins are connected to signal lines: <br>
+
+3 lines - for the SPI interface (connected to pins C, I, O on the
+top side of the board), <br>
+
+1 line
+- for device selection when working with SPI (pin ~S on the top side
+of the board). <span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">Every
+device connected to the SPI interface
+requires a separate ~</span><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;" lang="EN-US">S</span><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">.</span><br>
+
+1 line - general-purpose input/output (IO2); it can be used
+as
+the select line for an additional SPI device, or as a hardware
+interrupt input, for example letting you track the end of an accelerometer's
+conversion or wake the adapter's microcontroller from sleep mode when
+working with a real-time clock;<br>
+
+2 lines
+- for the I2C interface (pins C and D on the underside of the board); if I2C
+is not used, 2 additional devices can be connected to the
+SPI interface;<br>
+
+1 line - for the 1-Wire interface (pin IO1 on the
+underside of the board); if 1-Wire is not used, one more
+SPI device can be connected.<br>
+
+<br>
+
+If, in the adapter with the <span style="color: rgb(153, 0, 0);">ATmega8</span> microcontroller, the 1-Wire
+interface is not used, <span style="color: rgb(153, 0, 0);">the
+IO1 pin</span>
+can be used as a <span style="color: rgb(153, 0, 0);">timer
+counting input</span>.<br>
+
+<br>
+
+The physical ability to connect many
+devices is limited by the total input capacitance of the connected devices
+and the cable capacitance - the longer the cable, the greater its
+capacitance. For example, the total capacitance of a single I2C interface line must
+not exceed 400pF.<br>
+
+Additional limits come from the drive
+capability of the microcontroller's outputs on the adapter board (up to 20mA) and
+the current the adapter's regulator can supply - up to
+100mA for powering the adapter itself and any external devices
+connected to the adapter's V pin. <br>
+
+Connected devices can also be powered from a separate regulator; a mounting
+location for one is provided on the adapter board.<br style="color: rgb(153, 0, 0);">
+
+<span style="" lang="EN-US"></span><span style="" lang="EN-US"><span style="font-weight: bold;"></span></span><span style="" lang="EN-US"></span>
+<hr style="width: 100%; height: 2px;">
+
+</body></html>
