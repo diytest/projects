@@ -23,6 +23,7 @@
 
 
 
+
   
   <meta http-equiv="Content-Type" content="text/html; image/x-icon; charset=UTF-8">
 
@@ -618,14 +619,66 @@ test: trace widths and gaps of 0.1mm and less, testing of printers
 (600 and 1200 dpi resolution). Using the headset board as
 an example, photographs show the
 sequence for making a DOUBLE-SIDED PCB. Special
-attention is given to aligning both layers and etching quality.
+attention is given to aligning both layers and etching quality.<br>
+<br>
+<br>
+
+<span style="font-weight: bold;"></span>
+
+<hr style="width: 100%; height: 2px;">
+<h1 style="height: 19px;"><span style="font-weight: bold;">Thermal Controller / Timer</span><br>
+
+</h1>
 <h2 style="text-align: left;"><span style="" lang="EN-US"></span></h2>
 
 <h2 align="center">
 </h2>
 
-<hr style="width: 100%; height: 2px;">
-<h1 style="height: 19px;"><span style="font-weight: bold;">Thermostat</span></h1>
+<p class="MsoNormal"><a href="img/ThermoReg.jpg"><span style="" lang="EN-US"></span></a><a target="_blank" href="img/thermoCoupleCtl.jpg"><img style="border: 0px solid ; width: 102px; height: 74px; float: left;" alt="Thermo Controller" src="img/thermoCoupleCtl.jpg" title="Thermo Controller" align="left" hspace="10" vspace="5"></a><span lang="EN-US"></span></p>
+<p class="MsoNormal"><span lang="EN-US">The thermal controller is designed to control the <span style="font-weight: bold;">temperature of a soldering hot plate</span> and to <span style="font-weight: bold;">turn off an electric oven</span> with a power of <span style="font-weight: bold;">1kW</span> - for warming up buns.</span><br>
+
+
+Features:<br>
+
+
+
+- a <span style="font-weight: bold;">40-amp TRIAC</span> switches the load; the heatsink plate with the TRIAC heats up only to <span style="font-weight: bold;" lang="EN-US">+40º</span><span style="" lang="EN-US"><span style="font-weight: bold;">C</span> </span>at <span style="" lang="EN-US">+25</span><span lang="EN-US">º</span><span style="" lang="EN-US">C and a load power of <span style="font-weight: bold;">1kW</span></span><span style="font-weight: bold;"></span>. For a load current of tens of amperes, a large heatsink will be required;<br>
+
+
+
+- a <span style="font-weight: bold;">zero-cross TRIAC optocoupler</span> 
+(with switching on and off when the mains voltage passes through 
+zero) controls the 40-amp TRIAC, which minimizes switching noise;<br>
+
+
+- a <span style="font-weight: bold;">K-type thermocouple</span> withstands temperatures up to 600<span style="" lang="EN-US"></span><span lang="EN-US">º</span><span style="" lang="EN-US">C</span> (shown in the photo);<br>
+
+
+- capability to connect a digital <span style="font-weight: bold;">DS18B20 temperature sensor</span> (1-Wire interface) for accurate low-temperature measurement (<span lang="EN-US">the temperature measurement error is</span><span lang="EN-US">less than ±0.5</span><span lang="EN-US">º</span><span lang="EN-US">C in the range of -10</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+85</span><span lang="EN-US">º</span><span style="" lang="EN-US">C and ±2</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C in the 
+range of -55</span><span lang="EN-US">º</span><span style="" lang="EN-US"></span><span style="" lang="EN-US">C…+125</span><span lang="EN-US">º</span><span lang="EN-US"></span><span style="" lang="EN-US">C</span>) and regulation;<br>
+
+
+
+- <span style="font-weight: bold;">temperature setting</span> for switching the load off and on (heater, cooler); if hysteresis is not needed, both temperatures are selected to be the same;<br>
+
+
+
+- <span style="font-weight: bold;">timer mode</span>: turning off the load after 1...1000 s, with indication of the remaining time in seconds;<span lang="EN-US"></span><br>
+
+- all <span style="font-weight: bold;">parameters are saved in non-volatile memory</span>.</p>
+<h1 style="height: 19px;"><span style="font-weight: bold;">Thermostat</span><br>
+
+</h1>
+
+<h2 style="text-align: left;"><span style="" lang="EN-US"></span></h2>
+
+
+<h2 align="center">
+</h2>
+
+
+<p class="MsoNormal"><a href="img/ThermoReg.jpg"><span style="" lang="EN-US"></span></a></p>
+<span style="font-weight: bold;"></span>
 
 
 
